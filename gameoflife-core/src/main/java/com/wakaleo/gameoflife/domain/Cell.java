@@ -1,5 +1,7 @@
 package com.wakaleo.gameoflife.domain;
 
+
+
  /**
  * Wakaleo Consulting - John Ferguson Smart
  * Game of life, demonstration application for Jenkins: The Definitive Guide
@@ -12,9 +14,6 @@ public enum Cell {
     LIVE_CELL("*"), DEAD_CELL(".");
 
     private String symbol;
-	
-	
-
     private Cell(final String initialSymbol) {
         this.symbol = initialSymbol;
     }
