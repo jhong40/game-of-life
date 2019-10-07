@@ -6,7 +6,11 @@ pipeline {
 
 		stage('Build') {
 			steps {
+				sh '''
 				echo 'Building..'
+				mvn --version
+				
+				'''
 			}
 		}
 
