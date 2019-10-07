@@ -9,7 +9,7 @@ pipeline {
 				sh '''
 				echo 'Building..'
 				mvn --version
-				mvn build
+				mvn package
 				'''
 			}
 		}
